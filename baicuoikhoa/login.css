@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f5f5f7;
+    color: #1d1d1f;
+}
+
+.card {
+    width: 420px;
+    padding: 40px;
+    border-radius: 25px;
+    background: white;
+    border: 1px solid #e5e5e7;
+    box-shadow: 0 12px 25px rgba(0, 0, 0, .08);
+}
+
+.logo {
+    text-align: center;
+    font-size: 70px;
+    color: #fa2d48;
+    margin-bottom: 10px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #1d1d1f;
+}
+
+.input-box {
+    margin-bottom: 15px;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ddd;
+    outline: none;
+    border-radius: 15px;
+    background: #f7f7f8;
+    color: #1d1d1f;
+    font-size: 16px;
+}
+
+.input-box input:focus {
+    border-color: #fa2d48;
+}
+
+.input-box input::placeholder {
+    color: #888;
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 20px;
+    background: #fa2d48;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .3s;
+}
+
+button:hover {
+    background: #e92540;
+}
+
+.link {
+    margin-top: 20px;
+    text-align: center;
+    color: #777;
+}
+
+.link button {
+    background: transparent;
+    color: #fa2d48;
+    width: auto;
+    padding: 0;
+    font-size: 15px;
+    font-weight: bold;
+    display: inline;
+    cursor: pointer;
+}
+
+.link button:hover {
+    background: transparent;
+    text-decoration: underline;
+    transform: none;
+}
+
+#error {
+    margin-top: 10px;
+    text-align: center;
+    color: #fa2d48;
+}
